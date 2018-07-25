@@ -1,0 +1,86 @@
+body {
+
+    background: url("../images/kocka.jpg");
+    width: 466px;
+    height: 466px;
+    background-size: 100px 100px;
+  
+
+}
+h1 {
+    color: #ff0057;
+
+
+}
+
+#menu {
+    background: url("../images/kocka_2.jpg");
+    background-size: 100px 100px;
+    border-bottom: 1px solid lightgrey;
+    margin: 20 px;
+}
+#menu img {
+    margin-left: 6 px;
+}
+#menu ul {
+    margin: 0 0 12px 12px;
+
+}
+
+#menu ul li
+{   display: inline;
+    font-size: 22px;
+    padding-right: 20px;
+}
+#menu ul li:first-child
+{
+
+    border: 1px dotted #ffc1fd;
+    background: url(../images/rozova.jpg);
+    background-size: 30px 30px;
+    padding-left: 21px;
+    border: 1px solid red;
+}
+#menu ul li a
+{
+    display: inline;
+    font-size: 22 px;
+    padding-right: 20 px;
+    color: #FD5444;
+    text-decoration: none;
+}
+#menu ul li a:hover
+{   text-decoration: underline;
+    background-color: lightpink;
+}
+div.social {
+    border-top:1px solid #ffc1fd;
+    border-bottom:1px solid #ffc1fd;
+    padding: 5px;
+    margin: 12px 0 0 0;
+
+
+}
+
+@media (min-width: 300px) {
+    .content img {
+        margin: 0;
+    }
+
+    #menu ul li
+    {
+        display: block;
+    }
+    h1 {
+        color: black;
+    }
+
+}
+
+
+
+
+
+
+
+
